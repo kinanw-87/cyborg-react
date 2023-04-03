@@ -1,0 +1,29 @@
+.related-game-item {
+  padding-bottom: var(--main-dist);
+  padding-right: calc(var(--main-dist) / 2);
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: calc(var(--main-dist) / 2);
+}
+
+.related-game-item-img {
+  width: 100%;
+  border-radius: var(--main-border-radius);
+}
+
+.related-game-item-text {
+  margin-left: 20px;
+}
+
+.related-game-item-text span {
+  font-size: 16px;
+  color: var(--text-color-grey);
+}
+
+.related-game-item-title {
+  font-size: 16px;
+  font-weight: var(--font-weitht-bold);
+}
+
+.related-game-item ul {
+  align-items: center;
+}

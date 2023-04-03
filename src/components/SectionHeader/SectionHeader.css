@@ -1,0 +1,17 @@
+.section-header {
+  margin-bottom: calc(var(--main-margin) / 2);
+}
+
+.section-header h4 {
+  font-size: 2rem;
+  font-weight: var(--font-weitht-bold);
+  color: var(--color-primary);
+  text-transform: capitalize;
+}
+
+.section-header h4 em {
+  color: var(--color-light);
+  font-style: normal;
+  text-decoration: underline;
+  margin-right: 10px;
+}

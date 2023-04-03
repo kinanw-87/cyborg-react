@@ -1,0 +1,27 @@
+.fortnite-detailes-title {
+  font-size: 45px !important;
+  text-align: center;
+  text-transform: uppercase !important;
+}
+
+.game-images img {
+  border-radius: var(--main-border-radius);
+  margin-bottom: 30px;
+}
+
+.game-text p {
+  font-size: 15px;
+  color: var(--text-color-grey);
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+.game-download-btn {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.game-download-btn a {
+  width: 100%;
+  font-weight: var(--font-weitht-normal);
+}

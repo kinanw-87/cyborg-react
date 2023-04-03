@@ -1,0 +1,27 @@
+.gaming-item {
+  padding-bottom: calc(var(--main-padding) / 2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.gaming-item ul {
+  flex-direction: row;
+}
+
+.gaming-item li {
+  margin-top: 30px !important;
+  text-align: center;
+}
+
+.gaming-item-image {
+  max-width: 80px;
+  border-radius: var(--main-border-radius);
+}
+
+.gaming-item h6 {
+  color: var(--color-light);
+  font-weight: var(--font-weitht-bold);
+}
+
+.gaming-item li span {
+  color: var(--text-color-grey);
+}

@@ -1,0 +1,25 @@
+.wrapper-swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .swiper {
+    width: 80%;
+  }
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}

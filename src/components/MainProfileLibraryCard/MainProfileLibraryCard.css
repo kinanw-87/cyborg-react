@@ -1,0 +1,43 @@
+.main-prfile-library-item {
+  padding-bottom: calc(var(--main-padding) / 2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.main-prfile-library-item ul {
+  flex-direction: row;
+}
+
+.main-prfile-library-item li {
+  margin-top: 30px !important;
+  text-align: center;
+}
+
+.main-prfile-library-item-image {
+  max-width: 80px;
+  border-radius: var(--main-border-radius);
+}
+
+.main-prfile-library-item h6 {
+  color: var(--color-light);
+  font-weight: var(--font-weitht-bold);
+}
+
+.main-prfile-library-item li span {
+  color: var(--text-color-grey);
+}
+
+.main-prfile-library-item li a {
+  font-size: 15px;
+  color: var(--text-color-grey);
+  background-color: var(--color-dark);
+  border: 1px solid var(--text-color-grey);
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: var(--main-border-radius);
+  font-weight: var(--font-weitht-normal);
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: var(--main-transition);
+  position: relative;
+  overflow: hidden;
+}

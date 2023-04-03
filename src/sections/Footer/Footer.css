@@ -1,0 +1,14 @@
+.footer-text {
+  text-align: center;
+  padding: calc(var(--main-padding) / 2);
+  color: var(--color-light);
+  font-weight: var(--font-weitht-normal);
+}
+
+.footer-link {
+  color: var(--color-light);
+}
+
+.footer-link:hover {
+  color: var(--color-primary);
+}

@@ -1,0 +1,25 @@
+.top-downloaded-item {
+  margin-bottom: calc(var(--main-margin) / 2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.top-downloaded-item-img {
+  border-radius: var(--main-border-radius);
+  max-width: 100px;
+}
+
+.top-downloaded-item-title {
+  font-size: 16px;
+  font-weight: var(--font-weitht-bold);
+}
+
+.top-downloaded-item-category {
+  color: var(--text-color-grey);
+}
+
+.icon-button {
+  background-color: var(--color-dark);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}

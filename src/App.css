@@ -1,0 +1,109 @@
+:root {
+  --color-dark: #27292a;
+  --color-darkest: #1f2122;
+  --color-light: #fff;
+  --color-primary: #ec6090;
+  --color-star-icons: #ffc107;
+  --color-btn: #e75e8d;
+  --color-border: #333;
+  --text-color-grey: #666;
+  --main-dist: 50px;
+  --main-padding: var(--main-dist);
+  --main-margin: var(--main-dist);
+  --main-border-radius: 25px;
+  --secandery-border-radius: calc(var(--main-border-radius) / 2);
+  --font-weitht-bold: 700;
+  --font-weitht-normal: 400;
+  --main-transition: all 0.4s ease;
+}
+
+[data-theme="light"] {
+  --color-dark: #ddd;
+  --color-darkest: #eee;
+  --color-light: #454545;
+  --color-border: #aaa;
+  --text-color-grey: #888;
+}
+
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: var(--color-darkest);
+  transition: all 0.3s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.star-icon {
+  color: var(--color-star-icons) !important;
+}
+
+.download-icon,
+.eye-icon,
+.server-icon,
+.gamepad-icon {
+  color: var(--color-primary) !important;
+}
+
+.route-link-prim-btn {
+  font-size: 14px;
+  color: var(--color-light);
+  background-color: var(--color-btn);
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: var(--main-border-radius);
+  font-weight: var(--font-weitht-normal);
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: var(--main-transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.route-link-prim-btn:hover {
+  background-color: var(--color-light);
+  color: var(--color-btn);
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.theme-toggle {
+  width: fit-content;
+  margin: 10px 0;
+  position: relative;
+  left: 12%;
+  display: flex;
+}
+
+.theme-toggle h4 {
+  color: var(--color-light);
+  margin-right: 20px;
+}
+
+.toggle-icon {
+  color: var(--color-light);
+  font-size: 2em;
+  color: var(--color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .theme-toggle {
+    top: 86px;
+  }
+}

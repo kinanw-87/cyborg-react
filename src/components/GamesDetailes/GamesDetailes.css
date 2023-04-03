@@ -1,0 +1,55 @@
+.game-left-info,
+.game-right-info {
+  background-color: var(--color-dark);
+  border-radius: var(--main-border-radius);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.game-left-info ul {
+  margin-bottom: 0;
+}
+
+.game-name h4 {
+  font-size: 15px;
+  font-weight: var(--font-weitht-bold);
+  margin-bottom: 10px;
+}
+
+.game-name span {
+  color: var(--text-color-grey);
+  display: block;
+  font-weight: 400;
+}
+
+.game-disc li {
+  color: var(--color-light);
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.game-disc li span {
+  margin-right: 7px;
+}
+
+.game-right-info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.game-right-info li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 15px;
+  color: var(--color-light);
+}
+
+.game-right-info li span {
+  color: var(--color-light);
+  margin-bottom: 7px;
+}

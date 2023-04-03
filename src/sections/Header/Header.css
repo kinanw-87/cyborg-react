@@ -1,0 +1,99 @@
+.header-area {
+  background-color: var(--color-darkest);
+  z-index: 100;
+}
+
+.navbar {
+  background-color: transparent;
+  margin-top: 0 !important;
+}
+
+.nav-btn {
+  background-color: var(--color-dark) !important;
+  cursor: pointer;
+  border: 1px solid var(--color-light) !important;
+}
+
+.nav-btn:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.nav-btn-icon {
+  color: var(--color-light);
+  font-size: 25px;
+}
+
+.navbar .container .ul-nav {
+  justify-content: flex-end;
+  vertical-align: middle;
+  text-align: right;
+  margin-top: 0px;
+  margin-right: 0px;
+  position: relative;
+  z-index: 999;
+}
+
+.navbar .container .ul-nav li {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.navbar .container .ul-nav li a {
+  display: block;
+  color: var(--text-color-grey);
+  transition: var(--main-transition);
+  border-radius: calc(var(--main-border-radius) / 2);
+  font-weight: var(--font-weitht-normal) !important;
+  font-size: 15px;
+  border: transparent;
+  padding: calc(var(--main-padding) / 5);
+  letter-spacing: 1.4px;
+}
+
+.navbar .container .ul-nav li a:hover {
+  color: var(--color-primary);
+  background-color: var(--color-dark);
+}
+
+.navbar .container .ul-nav li:last-child a:hover {
+  background-color: var(--color-dark);
+  color: var(--color-primary);
+}
+
+.navbar .container .ul-nav li a img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.navbar .container .ul-nav li:last-child a {
+  padding: 8px 20px;
+  border-radius: calc(var(--main-border-radius) / 2);
+}
+
+@media (max-width: 992px) {
+  .header-area {
+    display: inline-block;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-darkest);
+  }
+  .navbar .container .ul-nav li a img {
+    display: none;
+  }
+  .navbar .container .ul-nav li {
+    width: 50%;
+    text-align: center !important;
+    padding: 5px !important;
+    margin-left: 0;
+    border-bottom: 2px solid var(--color-border);
+  }
+  .navbar .container .ul-nav li.nav-profile {
+    border: none;
+  }
+}
+
+.active {
+  color: var(--color-primary) !important;
+  background-color: var(--color-dark);
+}

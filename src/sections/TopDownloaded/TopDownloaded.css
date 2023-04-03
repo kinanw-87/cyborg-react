@@ -1,0 +1,10 @@
+.button-link {
+  text-align: center;
+}
+
+.button-link .link {
+  font-size: 18px;
+  font-weight: var(--font-weitht-bold);
+  color: var(--color-primary);
+  text-decoration: none;
+}

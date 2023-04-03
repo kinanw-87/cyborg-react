@@ -1,0 +1,28 @@
+.feature-banner img {
+  border-radius: var(--main-border-radius);
+}
+
+.feature-banner .thumb {
+  position: relative;
+  max-height: clac(var(--main-dist) * 6);
+  overflow: hidden;
+  border-radius: var(--main-border-radius);
+}
+
+@media (max-width: 992px) {
+  .feature-banner .thumb {
+    margin-top: 30px;
+  }
+}
+
+.feature-banner .thumb a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-23px, -23px);
+  width: 46px;
+  height: 46px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: var(--color-primary);
+}

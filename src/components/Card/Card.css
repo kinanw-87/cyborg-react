@@ -1,0 +1,29 @@
+.most-pop-item {
+  padding: calc(var(--main-padding) / 2) calc(var(--main-padding) / 4);
+  border-radius: var(--main-border-radius);
+  background-color: var(--color-dark);
+  margin-bottom: calc(var(--main-margin) / 5);
+}
+
+.most-pop-item-img {
+  width: 100%;
+  border-radius: var(--secandery-border-radius);
+  margin-bottom: calc(var(--main-margin) / 2);
+}
+
+.most-pop-item-title {
+  font-size: 16px;
+  font-weight: var(--font-weitht-bold);
+}
+
+.most-pop-item-text span {
+  font-size: 14px;
+  color: var(--text-color-grey);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}

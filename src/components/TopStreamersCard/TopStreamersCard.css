@@ -1,0 +1,54 @@
+.top-streamer {
+  border-bottom: 1px solid var(--color-border);
+  margin-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.top-streamer-avatar .avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.top-streamer-avatar img {
+  width: 50px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.top-streamer .player-name {
+  color: var(--color-primary);
+}
+
+.top-streamer .player-name span {
+  margin-left: 10px;
+}
+
+.top-streamer .route-link-prim-btn {
+  padding: 10px 20px;
+}
+
+@media (max-width: 767px) {
+  .top-streamer {
+    flex-direction: column;
+  }
+
+  .top-streamer-avatar .avatar {
+    width: 100%;
+    display: block;
+  }
+
+  .top-streamer .top-streamer-btn {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .top-streamer .route-link-prim-btn {
+    width: 100%;
+  }
+}

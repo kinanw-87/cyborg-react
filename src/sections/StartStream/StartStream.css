@@ -1,0 +1,30 @@
+.start-stream-container {
+  margin-top: var(--main-margin);
+  background-color: transparent;
+  text-align: center;
+}
+
+.start-stream-item {
+  padding: calc(var(--main-padding) / 2);
+  margin-bottom: calc(var(--main-margin) / 2);
+  border: 1px solid var(--text-color-grey);
+  border-radius: var(--main-border-radius);
+}
+
+.start-stream-item-img img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin-bottom: calc(var(--main-dist) / 3);
+}
+
+.start-stream-item h4 {
+  color: var(--color-light);
+  font-size: 20px;
+  margin-bottom: calc(var(--main-margin) / 3);
+  font-weight: var(--font-weitht-bold);
+}
+
+.start-stream-item p {
+  color: var(--text-color-grey);
+  line-height: calc(var(--main-dist) / 2);
+}
